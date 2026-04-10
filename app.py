@@ -90,7 +90,7 @@ plt.rcParams.update({
 # ─────────────────────────────────────────────────────────────
 # DATA LOADING & CACHING
 # ─────────────────────────────────────────────────────────────
-DATA_PATH = "data/train.csv"
+DATA_PATH = "data/train_sample.csv"
 
 @st.cache_data(show_spinner="Loading & cleaning dataset…")
 def load_and_clean():
